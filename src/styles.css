@@ -1,0 +1,247 @@
+html {
+  box-sizing: border-box;
+}
+body {
+  background: #ffffff;
+  font-family: sans-serif;
+  margin: 0 auto;
+}
+
+.container {
+  max-width: 960px;
+  margin: auto;
+}
+
+.site-header {
+  background-color: #333333;
+  padding: 20px;
+  text-align: left;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.body-area {
+  padding: 15px;
+}
+
+.list-names-box {
+  width: 50%;
+  float: left;
+}
+.list-names {
+  padding: 0px;
+}
+.list-names > .name-active {
+  display: inline;
+  text-align: left;
+  margin-left: 10px;
+  font-style: italic;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.list-names > .name-inactive {
+  display: inline;
+  text-align: left;
+  margin-left: 10px;
+  font-style: italic;
+  font-weight: 600;
+  color: grey;
+  cursor: pointer;
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-width: 320px) and (max-width: 768px) {
+  /* Styles */
+  .color-box {
+    width: 100%;
+    float: right;
+    text-align: right;
+    display: inline;
+    clear: both;
+  }
+  .filter-title {
+    float: left;
+    clear: both;
+    font-size: 1.5em;
+    font-style: italic;
+    text-transform: uppercase;
+    margin-top: 30px;
+    padding-left: 10px;
+    color: #333333;
+  }
+  .list-names-box {
+    width: 50%;
+    float: left;
+    font-size: 0.6em;
+  }
+  
+}
+
+/** Tablets */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  /* Styles */
+  .color-box {
+    width: 50%;
+    float: right;
+    text-align: right;
+    display: inline;
+  }
+  .filter-title {
+    float: left;
+    clear: both;
+    font-size: 2em;
+    font-style: italic;
+    text-transform: uppercase;
+    margin-top: 30px;
+    padding-left: 10px;
+    color: #333333;
+  }
+}
+
+/** Desktop and laptops */
+@media only screen and (min-width: 1224px) {
+  /* Styles */
+  .color-box {
+    width: 50%;
+    float: right;
+    text-align: right;
+    display: inline;
+  }
+  .filter-title {
+    float: left;
+    clear: both;
+    font-size: 2em;
+    font-style: italic;
+    text-transform: uppercase;
+    margin-top: 30px;
+    padding-left: 10px;
+    color: #333333;
+  }
+}
+/** Larger screens */
+@media only screen and (min-width: 1824px) {
+  /* Styles */
+  .color-box {
+    width: 50%;
+    float: right;
+    text-align: right;
+    display: inline;
+  }
+  .filter-title {
+    float: left;
+    clear: both;
+    font-size: 2em;
+    font-style: italic;
+    text-transform: uppercase;
+    margin-top: 30px;
+    padding-left: 10px;
+    color: #333333;
+  }
+}
+
+
+.square-grey {
+  height: 25px;
+  width: 25px;
+  background-color: #e1e1e1;
+  float: right;
+  margin: 8px 8px 0 0;
+}
+.square-red {
+  height: 25px;
+  width: 25px;
+  background-color: #f40101;
+  float: right;
+  margin: 8px 8px 0 0;
+}
+
+.square-green {
+  height: 25px;
+  width: 25px;
+  background-color: #18c82b;
+  float: right;
+  margin: 8px 8px 0 0;
+}
+.square-blue {
+  height: 25px;
+  width: 25px;
+  background-color: #2b9dff;
+  float: right;
+  margin: 8px 8px 0 0;
+}
+
+.square-yellow {
+  height: 25px;
+  width: 25px;
+  background-color: #f2bf44;
+  float: right;
+  margin: 8px 8px 0 0;
+}
+.square-purple {
+  height: 25px;
+  width: 25px;
+  background-color: #890087;
+  float: right;
+  margin: 8px 8px 0 0;
+}
+
+.active {
+  border: 2px solid #000000;
+  cursor: pointer;
+}
+
+.inactive {
+  border: 2px solid #ffffff;
+  cursor: pointer;
+}
+
+/* Listing container */
+.listing-container {
+  clear: both;
+  float: left;
+  padding: 12px;
+  margin-top: 35px;
+  display: inline;
+  box-sizing: border-box;
+}
+
+/* Shapes */
+
+.shape-container {
+  border: 1px solid #cccccc;
+  padding: 43px;
+  float: left;
+  margin: 0px 13px 20px 0;
+  border-radius: 5px;
+}
+.shape-square {
+  height: 125px;
+  width: 125px;
+  border: 1px;
+}
+
+.shape-round {
+  height: 125px;
+  width: 125px;
+  border-radius: 50%;
+}
+
+.shape-oval {
+  height: 50px;
+  width: 100px;
+  border-radius: 50%;
+}
+
+.shape-rectangle {
+  height: 50px;
+  width: 100px;
+}
+
+.shape-triangle {
+  width: 0;
+  height: 0;
+  border-left: 62px solid transparent;
+  border-right: 62px solid transparent;
+  border-bottom: 50px solid #555;
+}
