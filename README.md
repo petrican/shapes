@@ -1,5 +1,5 @@
-### shapes-redux
-## Small Shapes app using Redux
+### shapes
+## Small Shapes app without using Redux
 
 This React application is listing some colors and shapes and allows filtering them. <br />
 The data is read from `shapes.json` file found under the public folder. <br />
@@ -32,7 +32,7 @@ h) When a single color and single shape is selected: “Round red items:” <br 
 ## Notes: <br />
 – The grid items ares painted with css only <br />
 – The application is responsive <br />
-– The listing of the items and filtering is done using redux <br />
+- no Redux usage
 
 ### Setup <br />
 
@@ -40,10 +40,10 @@ h) When a single color and single shape is selected: “Round red items:” <br 
  
  You need to have NodeJs installed first on your system. Please download this and follow the installation steps from [Node JS Download Page](https://nodejs.org/en/download/)
  <br />
- Once installed please clone this repo `https://github.com/petrican/shapes-redux.git`
+ Once installed please clone this repo `https://github.com/petrican/shapes.git`
  <br />
 Change the directory to shapes-redux
-`cd shapes-redux`
+`cd shapes`
 <br />
 Install the dependencies by running
 <br >
